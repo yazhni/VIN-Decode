@@ -1,0 +1,12 @@
+.primary {
+  background: #2884f6;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color .3s;
+
+  &:hover {
+    background: #075ecb;
+  }
+}

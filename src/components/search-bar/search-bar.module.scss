@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  padding: 0;
+  height: 40px;
+
+  @media (min-width: 500px) {
+    padding: 0 10%;
+  }  
+
+  @media (min-width: 992px) {
+    padding: 0 20%;
+  }
+}
+
+.rootInput {
+  width: 100%;
+}
+
+.input {
+  height: 100%;
+}
